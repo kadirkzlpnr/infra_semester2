@@ -25,7 +25,7 @@ try:
         print("email : ", x)
 
     for x in res.name_servers:
-        print("name_server : ", xff)
+        print("name_server : ", x)
 #error handling
 except TypeError as e:
     print("Controlleer of je de juiste functie naam hebt gebruikt!", e)
