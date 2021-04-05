@@ -13,7 +13,7 @@ def ping(host):
         print("Fout: Controlleer of je de juiste functie naam hebt gebruikt!", e)
 
     except AttributeError as e:
-        print("Fout: Controlleer je laatste wijzigingen wat betreft het platform!", e)
+        print("Fout: Controlleer je laatste wijzigingen wat betreft de libraries, platform etc.!", e)
 
     except SyntaxError as e:
         print("Fout: Controlleer op typfouten of onjuiste wijzigingen!", e)
