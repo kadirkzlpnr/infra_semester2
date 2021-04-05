@@ -12,7 +12,7 @@ while 1:
                 bsn_num      = bsn_num + num_char
             print("Je gegenereerde burgerservicenummer is : ", bsn_num)
     except ValueError as e: # fout handeling
-        print("Fout: Controlleer of je laatste wijziging!", e)
+        print("Fout: Controlleer je laatste wijziging!", e)
     
     except NameError as e: # fout handeling
         print("Fout: Controlleer of je de juiste functie naam hebt gebruikt!", e)
